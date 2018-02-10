@@ -37,3 +37,7 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
