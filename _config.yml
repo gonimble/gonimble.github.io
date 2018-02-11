@@ -28,6 +28,9 @@ minima:
 #header_pages:
 # - about.html
 
+# Google Analytics
+google_analytics: UA-113857430-1
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
