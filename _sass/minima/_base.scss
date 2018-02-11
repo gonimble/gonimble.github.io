@@ -23,9 +23,8 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  text-align: center;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -43,8 +42,11 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 350px;
+  width: 100%;
   vertical-align: middle;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 
@@ -54,6 +56,7 @@ img {
  */
 figure > img {
   display: block;
+  padding-bottom: 15px;
 }
 
 figcaption {
@@ -66,7 +69,8 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
@@ -98,10 +102,10 @@ a {
     color: darken($brand-color, 15%);
   }
 
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
+  //&:hover {
+  //color: $text-color;
+  //text-decoration: underline;
+  //}
 
   .social-media-list &:hover {
     text-decoration: none;
@@ -165,10 +169,11 @@ pre {
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  margin: auto;
+  //padding-top: $spacing-unit;
+  //padding-bottom: $spacing-unit;
+  padding-bottom: 0px;
+  padding-top: 0px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {

@@ -6,3 +6,6 @@
 #
 layout: home
 ---
+
+
+![minima theme preview](/Mark Brand.png)
