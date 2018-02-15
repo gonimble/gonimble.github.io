@@ -37,6 +37,7 @@ theme: jekyll-theme-minimal
 exclude:
   - Gemfile
   - Gemfile.lock
+  - about.md
 
 plugins:
   - jekyll-seo-tag
