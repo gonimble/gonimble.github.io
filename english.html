@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {% endif %}
+
+    <div class="home-content">
+      <p><img src="/Mark%20Brand.png" alt="minima theme preview"></p>
+    </div>
+
+  <div class="home-content_mark">
+
+    <div style="text-align:center;font-size:18px;padding-bottom:40px">
+      <p><strong>Freelance scrum product owner | digital product developer <br /> available from April 1st 2018<br />  </strong></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="text-align:justify;">
+    <p>My name is Mark Brand.</p>
+  </div>
+
+  <div style="text-align:justify;">
+    <p> I am a certified scrum product owner with a passion to drive digital business capabilities forward. With eight years of B2C and B2B e-commerce experience, I have a proven track record in increasing profitability through initiation and delivery of online optimization and innovation projects in a complex online and organisational environment. As a positive challenger I am committed to creating the ultimate digital user experience.</p>
+    <p>I have extensive experience working according to Agile- and Lean UX-principles together with full-stack DevOps-teams in continuous integration / continuous deployment environments.</p>
+    <p> I am a strong communicator and negotiator with a keen eye for challenges, needs and concerns of clients, team members and stakeholders. Building and guiding online business- and development teams with a shared vision and a drive to perform and deliver is something I love to do.
+    </p>
+    <p>As of April 1, 2018 I am available to help you accelerate the digital transformation of your organization.</p>
+  </div>
+
+  <div style="text-align:justify;padding-bottom:20px;">
+    <p>Contact me at mark@gonimble.nl.</p>
+  </div>
+
+
+<!--
+  <div style="text-align:center;font-size:14px;">
+    <p>Freelance scrum product owner | digital product developer
+available from April 1, 2018</p>
+  </div>
+  //-->
+
+<!--
+  {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {% if site.show_excerpts %}
+          {{ post.excerpt }}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {% endif %}
+  //-->
+
+  <footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+    <div class="wrapper">
+
+      <h2 class="footer-heading">
+          <div style="text-align:justify;padding-bottom:10px;">
+            <p>Scrum  |  Agile  |  Lean UX  |  behavioral targeting  |  Elasticsearch  |  behavior driven development / BDD  |  DevOps  |  full stack development teams  |  website performance optimization  |  SEO optimization  |  continuous integration / continuous development  |  front-end and back-end A/B-testing  |  goal- and user oriented  |  fact-driven  |  coach  |  entrepreneurial  |  keep it simple  |   approachable</p>
+          </div>
+      </h2>
+
+      <a href="https://www.linkedin.com/in/mrkbrnd/?locale=en_US" target="_blank"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a>
+
+        <h2 class="footer-heading">
+            <div style="text-align:center;padding-top:20px;">
+              <a href="/index.html"><span style="text-decoration: underline;">Nederlands</span></a>
+            </div>
+        </h2>
+
+    </div>
+
+  </footer>
+
+
+</div>
